@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/router/Documents/muduo_example/chat_server/Codec.hpp
+muduo/net/TcpServer.h
+-
+muduo/net/TcpConnection.h
+-
+muduo/net/Buffer.h
+-
+muduo/base/Timestamp.h
+-
+muduo/base/Logging.h
+-
+functional
+-
+sys/types.h
+-
+arpa/inet.h
+-
+
+/home/router/Documents/muduo_example/chat_server/chat_server.cc
+muduo/net/TcpServer.h
+-
+muduo/net/TcpConnection.h
+-
+muduo/net/InetAddress.h
+-
+muduo/net/EventLoop.h
+-
+Codec.hpp
+/home/router/Documents/muduo_example/chat_server/Codec.hpp
+set
+-
+iostream
+-
+mutex
+-
+boost/bind.hpp
+-
+

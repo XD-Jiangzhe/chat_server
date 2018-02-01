@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="chat_server" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/router/Documents/muduo_example/chat_server" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/router/Documents/muduo_example/chat_server/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/router/Documents/muduo_example/chat_server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/router/Documents/muduo_example/chat_server/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/router/Documents/muduo_example/chat_server/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/router/Documents/muduo_example/chat_server" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/router/Documents/muduo_example/chat_server/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/router/Documents/muduo_example/chat_server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/router/Documents/muduo_example/chat_server/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/router/Documents/muduo_example/chat_server/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="chat_server">
+         <Option output="/home/router/Documents/muduo_example/chat_server/bin/chat_server" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/router/Documents/muduo_example/chat_server/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/router/Documents/muduo_example/chat_server/Makefile&quot;  VERBOSE=1 chat_server" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/router/Documents/muduo_example/chat_server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/router/Documents/muduo_example/chat_server/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/router/Documents/muduo_example/chat_server/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="chat_server/fast">
+         <Option output="/home/router/Documents/muduo_example/chat_server/bin/chat_server" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/router/Documents/muduo_example/chat_server/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/router/Documents/muduo_example/chat_server/Makefile&quot;  VERBOSE=1 chat_server/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/router/Documents/muduo_example/chat_server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/router/Documents/muduo_example/chat_server/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/router/Documents/muduo_example/chat_server/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/router/Documents/muduo_example/chat_server" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/router/Documents/muduo_example/chat_server/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/router/Documents/muduo_example/chat_server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/router/Documents/muduo_example/chat_server/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/router/Documents/muduo_example/chat_server/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="chat_client">
+         <Option output="/home/router/Documents/muduo_example/chat_server/bin/chat_client" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/router/Documents/muduo_example/chat_server/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/router/Documents/muduo_example/chat_server/Makefile&quot;  VERBOSE=1 chat_client" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/router/Documents/muduo_example/chat_server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/router/Documents/muduo_example/chat_server/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/router/Documents/muduo_example/chat_server/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="chat_client/fast">
+         <Option output="/home/router/Documents/muduo_example/chat_server/bin/chat_client" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/router/Documents/muduo_example/chat_server/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/router/Documents/muduo_example/chat_server/Makefile&quot;  VERBOSE=1 chat_client/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/router/Documents/muduo_example/chat_server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/router/Documents/muduo_example/chat_server/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/router/Documents/muduo_example/chat_server/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="chat_server_effective">
+         <Option output="/home/router/Documents/muduo_example/chat_server/bin/chat_server_effective" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/router/Documents/muduo_example/chat_server/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/router/Documents/muduo_example/chat_server/Makefile&quot;  VERBOSE=1 chat_server_effective" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/router/Documents/muduo_example/chat_server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/router/Documents/muduo_example/chat_server/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/router/Documents/muduo_example/chat_server/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="chat_server_effective/fast">
+         <Option output="/home/router/Documents/muduo_example/chat_server/bin/chat_server_effective" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/router/Documents/muduo_example/chat_server/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/router/Documents/muduo_example/chat_server/Makefile&quot;  VERBOSE=1 chat_server_effective/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/router/Documents/muduo_example/chat_server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/router/Documents/muduo_example/chat_server/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/router/Documents/muduo_example/chat_server/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="chat_server_highperform">
+         <Option output="/home/router/Documents/muduo_example/chat_server/bin/chat_server_highperform" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/router/Documents/muduo_example/chat_server/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/router/Documents/muduo_example/chat_server/Makefile&quot;  VERBOSE=1 chat_server_highperform" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/router/Documents/muduo_example/chat_server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/router/Documents/muduo_example/chat_server/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/router/Documents/muduo_example/chat_server/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="chat_server_highperform/fast">
+         <Option output="/home/router/Documents/muduo_example/chat_server/bin/chat_server_highperform" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/router/Documents/muduo_example/chat_server/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/router/Documents/muduo_example/chat_server/Makefile&quot;  VERBOSE=1 chat_server_highperform/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/router/Documents/muduo_example/chat_server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/router/Documents/muduo_example/chat_server/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/router/Documents/muduo_example/chat_server/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/router/Documents/muduo_example/chat_server/Codec.hpp">
+         <Option target="chat_server"/>
+         <Option target="chat_client"/>
+      </Unit>
+      <Unit filename="/home/router/Documents/muduo_example/chat_server/chat_client.cc">
+         <Option target="chat_client"/>
+      </Unit>
+      <Unit filename="/home/router/Documents/muduo_example/chat_server/chat_server.cc">
+         <Option target="chat_server"/>
+      </Unit>
+      <Unit filename="/home/router/Documents/muduo_example/chat_server/chat_server_effective.cc">
+         <Option target="chat_server_effective"/>
+      </Unit>
+      <Unit filename="/home/router/Documents/muduo_example/chat_server/chat_server_highperform.cc">
+         <Option target="chat_server_highperform"/>
+      </Unit>
+      <Unit filename="/home/router/Documents/muduo_example/chat_server/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

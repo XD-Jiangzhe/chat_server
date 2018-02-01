@@ -1,0 +1,1 @@
+/usr/bin/c++   -g -g   CMakeFiles/chat_server_effective.dir/chat_server_effective.cc.o  -o bin/chat_server_effective -lmuduo_net -lmuduo_base_cpp11 -lboost_system -lpthread 
